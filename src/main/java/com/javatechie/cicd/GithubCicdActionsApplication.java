@@ -11,7 +11,7 @@ public class GithubCicdActionsApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "Successfully CreateD a CI/CD pipeline using GitHub Actions.";
+		return "Successfully made changes";
 	}
 
 //	echo "# github-actions-example" >> README.md
