@@ -11,7 +11,7 @@ public class GithubCicdActionsApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "Successfully made changes";
+		return "Successfully made changes ";
 	}
 
 //	echo "# github-actions-example" >> README.md
